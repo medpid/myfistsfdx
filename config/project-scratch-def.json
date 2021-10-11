@@ -1,6 +1,10 @@
 {
-  "orgName": "Demo company",
+  "orgName": "Vasu Test Demo",
   "edition": "Developer",
+  "adminEmail": "pvkreddy2001@gmail.com",
+  "description": "Vasu Test Demo",
+  "hasSampleData": true,
+  "release": "Preview",
   "features": ["EnableSetPasswordInApi"],
   "settings": {
     "lightningExperienceSettings": {

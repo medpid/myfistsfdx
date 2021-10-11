@@ -15,4 +15,17 @@
 
 ## Creating a scratch ORG
 
-### 
+### sfdx force:org:create -f config\project-scratch-def.json --setalias myfistsfdx --durationdays 30 --setdefaultusername --json --loglevel fatal
+: Create a scratch ORG
+
+### Open Default Org
+: To open the scractch org that was created.
+
+### sfdx force:user:password:generate
+: To generate password for the scratch org
+
+### sfdx force:user:display -u myfistsfdx // alias used
+: To get the userinfo and password anytime
+
+### sfdx force:org:delete
+: To delete the default ORG.
